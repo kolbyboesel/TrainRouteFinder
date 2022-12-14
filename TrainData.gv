@@ -1,0 +1,28 @@
+Graph TrainData {
+
+Albany
+Chicago
+Milwaukee
+Dallas
+LA
+Atlanta
+Denver
+Minneapolis
+
+Albany -- Chicago [weight=15]
+Chicago -- Milwaukee [weight=2]
+Chicago-- Atlanta [weight=10]
+Atlanta -- Dallas [weight=20]
+Dallas -- Denver [weight=10]
+Denver -- LA [weight=20]
+Milwaukee -- Minneapolis [weight=4]
+Chicago -- Minneapolis [weight=6]
+Milwaukee -- Chicago [weight=2]
+Minneapolis -- Milwaukee [weight=4]
+LA -- Denver [weight=20]
+Denver -- Dallas [weight=10]
+Dallas -- Atlanta [weight=20]
+Atlanta -- Chicago [weight=10]
+Chicago -- Albany [weight=15]
+
+}
